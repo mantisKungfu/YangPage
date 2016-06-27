@@ -1,0 +1,279 @@
+* {
+    margin: 0;  
+    background-color: white;
+}
+
+@media screen and (max-width: 400px) {
+  .naviUL li a{
+    display: none;
+  }
+  
+  .naviUL {
+    visibility: hidden;      
+  }    
+    
+  .navibar {
+    width: 100%;
+    position: fixed;
+    height: 60px;
+    background-color: white;
+  }    
+    
+  .hamburger {
+    display: block;
+  }
+}
+
+body, html {
+    width: 100%;
+    height: 100%;    
+}
+
+.naviUL {
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid black;
+    right: 0;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    background-color: white;
+    padding: 1% 0 1% 0;
+}
+
+.naviLI {
+    display: inline;
+    background-color: white;
+}
+
+.naviLI a {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 3% 0 3%;
+}
+
+.navibar {
+    text-align: center;
+}
+
+.mobiblog {
+    width: 80px;
+    height: 40px;
+    display: block;
+    left: 65%;
+    top: 10px;
+    position: fixed;
+    background: url('mobiblog.jpg') center no-repeat;
+    background-size: contain;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.hamburger {
+    width: 40px;
+    height: 40px;
+    display: block;
+    left: 45%;
+    top: 10px;
+    position: fixed;
+    background: url('top.jpg') center no-repeat;
+    background-size: contain;
+}
+
+.mobicontact {
+    width: 80px;
+    height: 40px;
+    display: block;
+    left: 10%;
+    top: 10px;
+    position: fixed;
+    background: url('mobicontact.jpg') center no-repeat;
+    background-size: contain;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.navtop {
+    width: 10%;
+    height: 10vh;
+    background: url("top.jpg") center no-repeat;
+    background-size: contain;
+    /*-webkit-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;*/
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.navtop:hover {
+    /*background: url("topinv.jpg") center top no-repeat;
+    background-size: cover;*/
+    transform: scale(1.2);
+}
+
+.navskills {
+    width: 10%;
+    height: 10vh;
+    background: url("navskills.jpg") center no-repeat;
+    background-size: contain;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.navskills:hover {
+    transform: scale(1.2);
+}
+
+.navabout {
+    width: 10%;
+    height: 10vh;
+    background: url("about.jpg") center no-repeat;
+    background-size: contain;
+    /*-webkit-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;*/
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.navabout:hover {
+    /*background: url("aboutinv.jpg") center top no-repeat;
+    background-size: cover;*/
+    transform: scale(1.2);
+}
+
+.navcontact {
+    width: 10%;
+    height: 10vh;
+    background: url("contact.jpg") center no-repeat;
+    background-size: contain;
+    /*-webkit-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;*/
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.navcontact:hover {
+    /*background: url("contactinv.jpg") center top no-repeat;
+    background-size: cover;*/
+    transform: scale(1.2);
+}
+
+.navblog {
+    width: 10%;
+    height: 10vh;
+    background: url("blog.jpg") center no-repeat;
+    background-size: contain;
+    /*-webkit-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;*/
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.navblog:hover {
+    /*background: url("bloginv.jpg") center top no-repeat;
+    background-size: cover;*/
+    transform: scale(1.2);
+}
+
+.bodyparts {
+    height: 160vmax;
+}
+
+.bodyparts div {
+    text-align: center;
+}
+
+.hero, .skillz { 
+    width: 100%;
+    height: 20%;
+    margin: 0;
+}
+
+.skillz {
+    height: 35%;
+}
+/*Reminder, issues here!!!!!!!!!!*/
+.skillztext p {
+    padding-top: 30%;
+    background-color: transparent;
+}
+
+.skillztext{
+    vertical-align: bottom;
+    text-align: center;
+}
+
+.hero {
+    background: url("whobanner.jpg") center no-repeat;
+    background-size: contain;
+}
+
+.skillz {
+    background: url("whatbanner.jpg") center no-repeat;
+    background-size: contain;
+}
+
+.about {
+    background: url("whybanner.jpg") center no-repeat;
+    background-size: contain;
+    width: 100%;
+    right: 0;
+    height: 35%;
+    margin: 0;
+}
+
+.contactheader {
+    background: url("contactheader.jpg") center no-repeat;
+    background-size: contain;
+    width: 100%;
+    right: 0;
+    Height: 3%;
+    margin: 0 0 50px 0;
+}
+
+.anchoradjust {
+    height: 7%;
+}
+
+table {
+    width: 100%;
+    padding-top: 5px;
+}
+
+.namefield {
+    text-align: center;
+    vertical-align: top;
+}
+
+.namebox {
+    border: 1px solid black;
+}
+
+textarea {
+    border: 1px solid black;
+    width: 80%;
+    max-width: 800px;
+}
+
+.footer {
+    text-align: center;
+    margin: 5%;
+}
+
+.footer ul, li {
+    vertical-align: middle;
+    list-style: none;
+    display: inline;
+}
+
+.footer p {
+    font-size: .9rem;
+}
+
+.footer li {
+    margin: 1%;
+}
+
+.socialM a img{
+    width: 40px;
+    height: 40px;
+}
